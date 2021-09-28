@@ -11,46 +11,50 @@
 
 <body>
     <div class="container">
-        <h1 class="heading">Cash Register</h1>
+        <h1 class="heading">Cash Register💵</h1>
         <p class="description">
             Enter the bill amaount and cash given by the customer and know minimum number of notes in return
         </p>
         <label for="bill-amount">Bill Amount:</label>
         <input id="bill-amount" type="number">
         <button id="next-button">Next</button>
+        <p id="error-message-next"></p>
 
-        <label for="cash-given">Cash Given:</label>
-        <input id="cash-given" type="number">
-        <button id="check-button">Change</button>
-        <p id="error-message"></p>
+        <div class="next-block">
+            <label for="cash-given">Cash Given:</label><br>
+            <input id="cash-given" type="number">
+            <button id="check-button">Change</button>
+            <p id="error-message"></p>
 
-        <table class="change-table">
-            <caption>Return Change</caption>
-            <tr>
-                <th>No. of notes</th>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-            </tr>
-            <tr>
-                <th>Note</th>
-                <td>2000</td>
-                <td>500</td>
-                <td>100</td>
-                <td>50</td>
-                <td>20</td>
-                <td>10</td>
-                <td>5</td>
-                <td>2</td>
-                <td>1</td>
-            </tr>
-        </table>
+            <table class="change-table">
+                <caption>Return Change</caption>
+                <tr>
+                    <th>No. of notes</th>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                </tr>
+                <tr>
+                    <th>Note</th>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+            </table>
+
+        </div>
 
 
 

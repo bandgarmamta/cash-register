@@ -2,7 +2,7 @@
     --primary-color: #195e3a;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -14,6 +14,7 @@
     color:white;
     border: 1rem solid black;
 }
+
 
 button{
     width: 7rem;
@@ -30,6 +31,8 @@ table,th,td{
     border: 1px solid black;
     background-color: white;
     color:black;
+    margin: auto;
+    
 }
 
 caption{
@@ -38,9 +41,11 @@ caption{
 
 input{
     font-size: 1rem;
-    width: 40%;
+    width: 45%;
     align-self: center;
     border:2px solid black;
+    margin: auto;
 }
+
 
 
