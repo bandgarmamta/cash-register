@@ -23,9 +23,8 @@ function calculateChange(amountToBeReturned){
 checkButton.addEventListener("click", function validate() {
     message.style.display = "none";
     if (billAmount.value > 0) {
-        if (cashGiven.value >= billAmount.value) {
-            const amountToBeReturned = cashGiven - billAmount;
-            console.log(amountToBeReturned.value);
+        if (Number(cashGiven.value) >= Number(billAmount.value)) {
+            const amountToBeReturned = cashGiven.value - billAmount.value;
             calculateChange(amountToBeReturned);
         } else {
             showMessage("The cash provided should atleast be equal to the bill amount");
@@ -33,6 +32,10 @@ checkButton.addEventListener("click", function validate() {
 
     } else {
         showMessage("Invalid Bill Amount")
+    }
+
+    if(billAmount.value == "" || cashGiven.value==""){
+        message.style.display = "none";
     }
 
 });

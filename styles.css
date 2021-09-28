@@ -1,13 +1,28 @@
+:root{
+    --primary-color: #D1FAE5;
+}
+
 .container{
     display: flex;
     flex-direction: column;
     width: 40%;
+    text-align: center;
+    margin:auto;
+    padding: 2rem;
+    margin-top:4rem;
 }
 
-#bill-amount{
+button{
+    width: 7rem;
+    align-self: center;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
 }
 
-#cash-given{
-
+input{
+    
+    
 }
